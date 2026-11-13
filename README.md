@@ -1,9 +1,11 @@
-# NBA player efficiency: econometrics course project
+# Analysis of Player Efficiency (PER) Using a Multiple Regression
 
-This 2025 Pusan National University course project examines NBA Player Efficiency Rating (PER) using regression, transformations, position indicators, heteroskedasticity tests, and weighted least squares. The report identifies Basketball-Reference as the source of the 2023–24 and 2024–25 player statistics. The original data files are not included in this repository. The original notebooks and reproduction script read existing files; they do not collect or download data from Basketball-Reference. The original acquisition method, data license, and permission to redistribute are not established by the supplied materials. Users must verify the data source and the applicable use and redistribution conditions, including any permissions, before obtaining, using, or sharing data. See the [Sports Reference terms of use](https://www.sports-reference.com/termsofuse.html) and [data use policy](https://www.sports-reference.com/data_use.html).
+## Summary
 
-- `original-korean/` contains the Korean report and original notebooks, with data and a duplicated reproduction folder removed from this public copy. The notebooks retain analysis results from their original runs and some individual player data in their saved outputs, as well as original Google Drive paths and metadata. Review these outputs and the reports before publication.
-- `english-report/` contains the English report PDF.
-- `reproduction/` contains the figure reproduction code and previously generated figures. See its [README](reproduction/README.md) for the required inputs, columns, placement, and execution. It does not reproduce the 2024–25 prediction table.
+2025 spring semester Econometrics course project examines NBA Player Efficiency Rating (PER) using regression, transformations, dummy variables (position indicators), heteroskedasticity tests, and weighted least squares.
 
-To run the reproduction code, users must prepare the required data files themselves; full reproduction is impossible without them. The original main notebook expects comma-separated files named `nba20232024_total.txt`, `nba20232024_advanced.txt`, `nba20242025_total.txt`, and `nba20242025_advanced.txt` under `/content/drive/MyDrive/Econometrics_Project_PNU/`; its Drive mount and paths must be adapted for another environment. Its required columns include those listed in the reproduction guide, and the 2024–25 prediction cells also use `Player`, `G`, `Pos`, `PTS`, `TRB`, `AST`, `STL`, `BLK`, `TOV`, `PF`, and `PER` from the corresponding totals and advanced files. The original `nba_test.txt` was also removed; it is not read by the figure reproduction script. Exact acquisition steps and whether newly obtained files will match the original sample and row order are unverified.
+## Folder description
+
+- [`original-korean`] contains the Korean report and original notebooks, with data and a duplicated reproduction folder removed from this public copy. The notebooks retain analysis results from their original runs and some individual player data in their saved outputs.
+- [`english-report`] contains the Korean to English Translated PDF.
+- [`reproduction`] contains the figure reproduction code and previously generated figures. See its [README](reproduction/README.md) for the required inputs, columns, placement, and execution.
