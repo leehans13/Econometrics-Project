@@ -1,0 +1,5 @@
+# Local source data and generated player-level results
+original-korean/nba*.txt
+reproduction/data/*.txt
+reproduction/results/
+__pycache__/
