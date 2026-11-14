@@ -1,4 +1,3 @@
-"""Recreate the report's numbered figures from the original notebook methods."""
 from pathlib import Path
 import json
 import numpy as np
